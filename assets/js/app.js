@@ -8,7 +8,7 @@ $(document).ready(function () {
     // API vars
     function displayHeroInfo() {
 
-        var api = "http://api.giphy.com/v1/gifs/";
+        var api = "https://api.giphy.com/v1/gifs/";
         var apiKey = "&api_key=wQgvm3ffxIrfYpTffgpuT9P404Qhn6HI&limit=";
         var userSearch = "search?q="
         var hero = $(this).attr("data-name");
